@@ -1,0 +1,60 @@
+﻿<!doctype>
+<html>
+<head>
+    <title> loginPage</title>
+</head>
+<style>
+    body {
+        background-image: url(train.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+<script>
+        function checkk()
+        {
+            var name = document.Loginn.userid.value;
+            var pass = document.Loginn.pswrd.value;
+
+            if (name == "supraja" && pass == "pass123")
+            {
+                alert("Login Sucessfull");
+                return true;
+            }
+            else
+            {
+                alert("Login Failed");
+                return false;
+
+            }
+         }
+</script>
+
+
+<body>
+    <form name="loginpage" method="get" align="center">
+
+        <table align="center">
+            <tr>
+                <td><h3>Username: </td>
+                <td><input type="text" name="txtname"</td></h3>
+            </tr></br>
+            <tr>
+                <td><h3>Password: </td>
+                <td><input type="text" name="txtname"</td>
+            </tr></br>
+            <tr>
+                <td><h3> Confirm Password: </td>
+                <td><input type="text" name="txtname"</td>
+            </tr></br>
+
+
+            <tr>
+                <td><input type="submit" name="submit" value="submit"></td>
+
+<td><input type="reset" name="reset" value="reset"></td>
+           </tr>
+
+<a href="https://www.newregister.com" target="registrationpage.html">New Register!</a>
+</html>
